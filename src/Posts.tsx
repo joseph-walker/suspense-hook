@@ -8,12 +8,12 @@ export type PostEntry = {
 }
 
 export function Posts() {
-	const todosSuspender = useSuspender(
+	const postsSuspender = useSuspender(
 		() => fetch('https://jsonplaceholder.typicode.com/posts')
 			.then(response => response.json() as unknown as PostEntry[])
 	);
 
-	const posts = todosSuspender.read();
+	const posts = postsSuspender.read();
 
 	return (
 		<ul>
