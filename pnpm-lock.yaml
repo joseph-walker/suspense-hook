@@ -1,15 +1,19 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@swan-io/boxed': ^0.10.0
   '@types/react': ^18.0.15
   eslint: 8.19.0
   eslint-config-next: 12.2.0
+  jose: ^4.8.3
   next: 12.2.0
   react: 18.2.0
   react-dom: 18.2.0
   typescript: ^4.7.4
 
 dependencies:
+  '@swan-io/boxed': 0.10.0
+  jose: 4.8.3
   next: 12.2.0_biqbaboplfbrettd7655fr4n2y
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -220,6 +224,10 @@ packages:
   /@rushstack/eslint-patch/1.1.4:
     resolution: {integrity: sha512-LwzQKA4vzIct1zNZzBmRKI9QuNpLgTQMEjsQLf3BXuGYb3QPTP4Yjf6mkdX+X1mYttZ808QpOwAzZjv28kq7DA==}
     dev: true
+
+  /@swan-io/boxed/0.10.0:
+    resolution: {integrity: sha512-p6lMAia7Z6a35x04sHa8cqyg2s7mZuA9f4c4WxBOrVjB8VEuxsIW1wEH1/tpbJCu0tv4/mFoYYAY2zUCfrzopA==}
+    dev: false
 
   /@swc/helpers/0.4.2:
     resolution: {integrity: sha512-556Az0VX7WR6UdoTn4htt/l3zPQ7bsQWK+HqdG4swV7beUCxo/BqmvbOpUkTIm/9ih86LIf1qsUnywNL3obGHw==}
@@ -1202,6 +1210,10 @@ packages:
   /isexe/2.0.0:
     resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
     dev: true
+
+  /jose/4.8.3:
+    resolution: {integrity: sha512-7rySkpW78d8LBp4YU70Wb7+OTgE3OwAALNVZxhoIhp4Kscp+p/fBkdpxGAMKxvCAMV4QfXBU9m6l9nX/vGwd2g==}
+    dev: false
 
   /js-tokens/4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}

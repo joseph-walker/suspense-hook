@@ -17,7 +17,7 @@ export function Posts() {
 
 	return (
 		<ul>
-			{posts.map(post => (
+			{posts.slice(0, 10).map(post => (
 				<li>
 					<Suspense fallback="...">
 						<Post postId={post.id} />
